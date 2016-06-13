@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="图像处理应用" />
+
+    <title>图像去模糊</title>
+    <link media="all" rel="stylesheet" href="style/main1_pro.css" type="text/css" />
+    <link media="all" rel="stylesheet" href="style/main_jianyi.css" type="text/css" />
+    <link media="all" rel="stylesheet" href="style/bar.style.css" type="text/css" />
+    <link media="all" rel="stylesheet" href="style/flash.css" type="text/css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/combined/alloyimage.js"></script>
+</head>
+
+<body>
+    <div class="header">图像去模糊</div>
+    <div class="wrapper">
+        <div class="panel">
+            <div class="modifyItem subItem" id="modi_b">模糊方向调节</div>
+            <div class="modifyItem subItem" id="modi_HSI">sigma调节</div>
+            <div class="modifyItem subItem" id="processing">开始处理</div>
+            <div class="ljItem subItem">反色</div>
+            <div class="ljItem subItem">灰度处理</div>
+            <div class="ljItem subItem">灰度阈值</div>
+            <div class="ljItem subItem">高斯模糊</div>
+            <div class="ljItem subItem">锐化</div>
+
+            <img src="style/image/back.png" alt="<-" class="back">
+        </div>
+
+
+        <div class="left">
+            <h3>菜单</h3>
+            <ul id="effects" class="effects">
+
+                <li class="e_item" id="open1">
+                    <div class="imgWrapper">
+                        <img src="style/image/open.jpg" alt="">打开图片
+                    </div>
+                </li>
+                <li class="e_item" id="new">
+                    <div class="imgWrapper">
+                        <img src="style/image/new.jpg" alt="">模糊核
+                    </div>
+                </li>
+                <li class="e_item" id="modify">
+                    <div class="imgWrapper">
+                        <img src="style/image/wipe.jpg" alt="">去模糊
+                    </div>
+                </li>
+                <li class="e_item" id="lj">
+                    <div class="imgWrapper">
+                        <img src="style/image/filter.jpg" alt="">滤镜
+                    </div>
+                </li>
+                <li class="e_item" id="saveFile">
+                    <div class="imgWrapper">
+                        <img src="style/image/save.png" alt="">保存
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="right">
+            <div class="openFile"></div>
+            <div class="painting"></div>
+            <!--<div id="picWrapper" class="picWrapper">
+                <img src="img/girl.png" class="pic" id="pic" alt="" draggable="false" />
+
+                <div id="infoMsg">
+                    处理中
+                </div>
+            </div>-->
+            <canvas id="imgRect" width="214" height="91"></canvas>
+        </div>
+        <div class="layer">
+        </div>
+
+    </div>
+    <script type="text/javascript" src="js/main_pr.js"></script>
+</body>
+</html>
