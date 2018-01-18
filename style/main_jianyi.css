@@ -98,6 +98,11 @@ h3{
     z-index:3;
     cursor:pointer;
 }
+
+#open1 img {
+    pointer-events: none;
+}
+
 #infoMsg{
     position:absolute;
     top:170px;
