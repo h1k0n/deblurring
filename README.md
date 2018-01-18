@@ -3,7 +3,7 @@
 # Image Deblurring
 golang; wiener filter; fftw
 
-# Installation / Useage
+# Installation / Usage
 
 ## OSX
 
@@ -13,6 +13,10 @@ golang; wiener filter; fftw
 4. `go run main.go`
 5. open localhost:8888 in web browser
 
-![localhost:8888](img/grab.png)
+<img src="img/grab.png" width="400" >
 
-![ImageProcessing.html](img/grab2.png)
+6. click ImageProcessing.html
+
+<img src="img/grab2.png" width="400" >
+
+
