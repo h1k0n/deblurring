@@ -12,3 +12,7 @@ golang; wiener filter; fftw
 3. `cd $GOPATH/src/github.com/h1k0n/deblurring`
 4. `go run main.go`
 5. open localhost:8888 in web browser
+
+![localhost:8888](img/grab.png)
+
+![ImageProcessing.html](img/grab2.png)
